@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "cosmeticloader",
+  "version": "${version}",
+  "name": "Cosmetic Loader",
+  "description": "Wear .obj 3D models, built-in shapes, blocks, textures, capes, elytra and particle effects on your player. Open the menu from the escape menu or press K.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.cosmeticloader.CosmeticLoaderClient"] },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
